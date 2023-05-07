@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02</title>
+</head>
+<body>
+    <script>
+
+        function soma (num1, num2, num3) {
+            var resultadoSoma = num1 + num2 + num3
+            return document.write('Soma dos números: '+ resultadoSoma)
+        }
+
+        function med (num1, num2, num3) {
+            var resultadoMed = (num1 + num2 + num3) / 3
+            return document.write('Média dos números: '+ resultadoMed)
+        }
+
+        num1 = parseInt(prompt("Digite o 1° número: "))
+        num2 = parseInt(prompt("Digite o 2° número: "))
+        num3 = parseInt(prompt("Digite o 3° número: "))
+
+        soma (num1, num2, num3)
+        med (num1, num2, num3)
+
+    </script>
+</body>
+</html>
